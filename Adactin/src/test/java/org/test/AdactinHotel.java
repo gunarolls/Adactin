@@ -16,7 +16,7 @@ public class AdactinHotel {
 		driver.manage().window().maximize();
 		Thread.sleep(5000);
 		driver.get("https://adactinhotelapp.com/");
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 		WebElement txtUsername = driver.findElement(By.id("username"));
 		txtUsername.sendKeys("gunarolls");
 		WebElement txtPassword = driver.findElement(By.id("password"));
